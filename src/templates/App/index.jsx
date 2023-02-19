@@ -1,8 +1,10 @@
+import {Wrapper} from '../../styles/style.jsx'
+
 function Home() {
   return (
-    <div>
-      <h1>Hello word</h1>
-    </div>
+      <Wrapper>
+        <h1>Hello word</h1>
+      </Wrapper>
   );
 }
 
