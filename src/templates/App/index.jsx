@@ -1,9 +1,10 @@
+import { Heading } from '../../components/Heading/index.jsx';
 import {Wrapper} from '../../styles/style.jsx'
 
 function Home() {
   return (
       <Wrapper>
-        <h1>Hello word</h1>
+        <Heading>Texto do heading</Heading>
       </Wrapper>
   );
 }
