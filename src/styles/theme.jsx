@@ -18,10 +18,10 @@ export const theme = {
             xxlarge: '4.8rem',
             huge: '5.6rem',
             xhuge: '6.4rem'
-        },
-        media: {
-            mobile: '(max-width: 768px)'
         }
+    },
+    media: {
+        mobile: '(max-width: 768px)'
     },
     space: {
         xsmall: '0.8rem',
