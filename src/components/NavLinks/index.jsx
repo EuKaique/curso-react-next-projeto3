@@ -2,11 +2,11 @@ import P from 'prop-types';
 import { Container } from './style';
 import { MenuLink } from '../MenuLink';
 
-export const NavLinks = ({ Links = [] }) => {
+export const NavLinks = ({ links = [] }) => {
     return (
         <Container>
-            {Links.map((Link) => (
-                <MenuLink key={Link.link} {...link}/>
+            {links.map((link) => (
+                <MenuLink key={link.link} {...link}/>
             ))}
         </Container>
     )

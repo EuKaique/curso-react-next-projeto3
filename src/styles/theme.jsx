@@ -2,7 +2,10 @@ export const theme = {
     colors: {
         light: '#FFFFFF',
         dark: '#0A1128',
-        red: '#DC143C'
+        red: '#DC143C',
+        grey: '#7B8FA1',
+        orange: '#FF8B13',
+        blue: '#537FE7'
     },
     font: {
         family: {
