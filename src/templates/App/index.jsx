@@ -1,12 +1,10 @@
 import { Heading } from '../../components/Heading/index.jsx';
 import {Wrapper} from '../../styles/style.jsx'
+import { Base } from '../Base/index.jsx';
+import { mockBase } from '../Base/stories';
 
 function Home() {
-  return (
-      <Wrapper>
-        <Heading>Texto do heading</Heading>
-      </Wrapper>
-  );
+  return <Base {...mockBase} />
 }
 
 export default Home;

@@ -17,7 +17,7 @@ const TitleSize = {
 }
 
 const MediaFont = (theme) => css`
-    @media ${theme.font.media.mobile}{
+    @media ${theme.media.mobile}{
         font-size: ${theme.font.size.xlarge}
     }
 `
