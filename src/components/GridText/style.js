@@ -16,6 +16,10 @@ export const Grid = styled.div`
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
         gap: ${theme.space.large};
+
+        @media ${theme.media.mobile}{
+            grid-template-columns: 1fr;
+        }
     ` }
 `;
 
